@@ -1,4 +1,4 @@
-import search
+from back_end.search.search import search
 
 
 def test_string_match__matches():

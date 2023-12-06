@@ -2,7 +2,7 @@ import json
 import math
 from collections import Counter
 
-from documents import TransformedDocument
+from back_end.document_process.documents import TransformedDocument
 from index import BaseIndex
 
 

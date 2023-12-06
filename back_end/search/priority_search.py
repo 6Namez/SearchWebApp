@@ -1,5 +1,5 @@
 from typing import List
-from tf_idf_inverted_index import TfIdfInvertedIndex, count_terms
+from back_end.indexing.tf_idf_inverted_index import TfIdfInvertedIndex, count_terms
 import sys
 
 

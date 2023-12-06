@@ -1,6 +1,5 @@
 from collections import defaultdict
-
-from documents import TransformedDocument
+from back_end.document_process.documents import TransformedDocument
 
 
 def count_terms(terms: list[str]) -> dict[str, int]:

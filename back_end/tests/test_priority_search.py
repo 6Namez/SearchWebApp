@@ -1,6 +1,6 @@
 from unittest import TestCase
-from priority_search import PhraseSearch
-from documents import TransformedDocument
+from back_end.search.priority_search import PhraseSearch
+from back_end.document_process.documents import TransformedDocument
 
 
 class TestPhraseSearch(TestCase):

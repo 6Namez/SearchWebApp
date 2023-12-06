@@ -1,8 +1,7 @@
 from unittest import TestCase
 
-from documents import TransformedDocument
-from tf_idf_index import TfIdfIndex
-
+from back_end.document_process.documents import TransformedDocument
+from back_end.indexing.tf_idf_index import TfIdfIndex
 
 class TestTfIdfIndex(TestCase):
     def test_add_document(self):

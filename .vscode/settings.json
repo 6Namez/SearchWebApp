@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./back_end/document_process",
+        "./back_end/indexing",
+        "./back_end/search"
+    ]
+}

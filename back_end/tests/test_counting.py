@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from counting import count_tokens
+from back_end.document_process.counting import count_tokens
 
 
 class Test(TestCase):

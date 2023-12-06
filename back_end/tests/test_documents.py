@@ -1,5 +1,5 @@
 from unittest import TestCase
-from documents import ListDocumentStore, Document, DictDocumentStore
+from back_end.document_process.documents import ListDocumentStore, Document, DictDocumentStore
 
 
 class TestListDocumentStore(TestCase):

@@ -1,5 +1,5 @@
 from unittest import TestCase
-import search
+from back_end.search import search
 
 
 class Test(TestCase):

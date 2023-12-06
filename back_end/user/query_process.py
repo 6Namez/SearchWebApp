@@ -1,7 +1,7 @@
-import priority_search
-from documents import DocumentStore, TransformedDocument
-from index import BaseIndex
-from tokenizer import tokenize, quotation_parser
+from back_end.search import priority_search
+from back_end.document_process.documents import DocumentStore, TransformedDocument
+from back_end.indexing.index import BaseIndex
+from back_end.document_process.tokenizer import tokenize, quotation_parser
 from typing import List
 import json
 import sys

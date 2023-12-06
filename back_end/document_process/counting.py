@@ -1,16 +1,5 @@
 from collections import Counter
-
 from documents import TransformedDocument
-
-
-# def count_tokens(tokens: list[str]) -> dict[str, int]:
-#     counts = dict()
-#     for t in tokens:
-#         if t in counts:
-#             counts[t] += 1
-#         else:
-#             counts[t] = 1
-#     return counts
 
 
 def count_tokens(tokens: list[str]) -> Counter:

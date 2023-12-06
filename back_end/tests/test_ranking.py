@@ -1,5 +1,5 @@
 from unittest import TestCase
-import ranking
+from back_end.search import ranking
 
 
 class Test(TestCase):

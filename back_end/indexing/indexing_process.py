@@ -1,9 +1,9 @@
 import json
 
-from documents import Document, TransformedDocument, DictDocumentStore, DocumentStore
+from back_end.document_process.documents import Document, TransformedDocument, DictDocumentStore, DocumentStore
 from index import  BaseIndex
 from tf_idf_inverted_index import TfIdfInvertedIndex
-from tokenizer import tokenize
+from back_end.document_process.tokenizer import tokenize
 
 
 def text_acquisition() -> DocumentStore:

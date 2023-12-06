@@ -47,9 +47,7 @@ class ListDocumentStore(DocumentStore):
                 record = json.loads(line)
                 docs.append(Document(doc_id=record['doc_id'], text=record['text']))
         return ListDocumentStore(docs)
-            # return ListDocumentStore([
-            #     Document(**json.loads(line)) for line in fp
-            # ])
+    
 
     def add_document(self, doc: Document):
         self.docs.append(doc)

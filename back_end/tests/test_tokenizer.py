@@ -1,5 +1,5 @@
 from unittest import TestCase
-from tokenizer import quotation_parser
+from back_end.document_process.tokenizer import quotation_parser
 
 
 class Test(TestCase):

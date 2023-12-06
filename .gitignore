@@ -1,1 +1,6 @@
 .DS_Store
+.venv
+.vscode
+back_end/web_interface/add_documents/__pycache__/add_documents.cpython-310.pyc
+back_end/web_interface/index/__pycache__/index.cpython-310.pyc
+back_end/web_interface/search/__pycache__/search.cpython-310.pyc

@@ -31,7 +31,6 @@ def index_route():
 # app route for search page
 @app.route('/search')
 def search_route():
-    print("called")
     return searchPage()
 
 # index page function rotes
